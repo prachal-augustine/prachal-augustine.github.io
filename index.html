@@ -5,88 +5,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prachal Augustine | Data Engineer</title>
     <style>
-        :root { --primary: #2563eb; --dark: #1e293b; --light: #f8fafc; --accent: #3b82f6; }
-        body { font-family: 'Inter', -apple-system, sans-serif; line-height: 1.6; color: var(--dark); max-width: 900px; margin: auto; padding: 20px; background: #f1f5f9; }
-        .card { background: white; padding: 40px; border-radius: 12px; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); }
-        header { border-bottom: 4px solid var(--primary); padding-bottom: 20px; margin-bottom: 30px; }
-        h1 { margin: 0; font-size: 2.5rem; color: var(--dark); }
-        .contact-info { color: #64748b; font-size: 0.9rem; margin-top: 10px; }
-        .contact-info a { color: var(--primary); text-decoration: none; margin-right: 15px; }
-        h2 { border-left: 5px solid var(--primary); padding-left: 15px; color: var(--dark); margin-top: 40px; text-transform: uppercase; font-size: 1.2rem; letter-spacing: 1px; }
-        .skill-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-top: 10px; }
-        .skill-category strong { display: block; color: var(--primary); margin-bottom: 5px; }
-        .job { margin-bottom: 30px; }
-        .job-header { display: flex; justify-content: space-between; align-items: baseline; font-weight: bold; }
-        .job-title { color: var(--primary); font-size: 1.1rem; }
-        .cert-badge { background: #dcfce7; color: #166534; padding: 5px 12px; border-radius: 20px; font-size: 0.85rem; display: inline-block; margin: 5px; border: 1px solid #166534; }
-        code { background: #e2e8f0; padding: 2px 6px; border-radius: 4px; font-size: 0.9rem; }
+        :root { --primary: #0056b3; --secondary: #6c757d; --bg: #f4f7f9; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 950px; margin: auto; padding: 20px; background-color: var(--bg); }
+        .container { background: white; padding: 50px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.1); }
+        header { text-align: center; border-bottom: 2px solid var(--primary); padding-bottom: 20px; margin-bottom: 30px; }
+        h1 { margin: 0; color: #222; font-size: 2.5em; text-transform: uppercase; }
+        .contact { margin: 10px 0; color: #555; }
+        .contact a { color: var(--primary); text-decoration: none; margin: 0 10px; }
+        .section-title { background: #e9ecef; padding: 8px 15px; border-left: 5px solid var(--primary); font-weight: bold; text-transform: uppercase; margin-top: 30px; }
+        .job { margin-bottom: 25px; }
+        .job-title { font-weight: bold; color: var(--primary); font-size: 1.1em; }
+        .job-meta { display: flex; justify-content: space-between; font-style: italic; color: #666; margin-bottom: 8px; }
+        .cert-list { list-style: none; padding: 0; }
+        .cert-item { background: #d4edda; color: #155724; padding: 8px; margin-bottom: 5px; border-radius: 4px; border-left: 4px solid #28a745; }
+        .skills-container { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px; }
+        .skill-tag { background: #eee; padding: 5px 12px; border-radius: 15px; font-size: 0.9em; border: 1px solid #ccc; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 5px; }
     </style>
 </head>
 <body>
-    <div class="card">
+    <div class="container">
         <header>
             <h1>PRACHAL AUGUSTINE</h1>
-            <div class="contact-info">
-                <span>📍 Uttar Pradesh, India</span> | 
-                <a href="mailto:prachalaugustine@outlook.com">Email Me</a> | 
-                <a href="https://WWW.LINKEDIN.COM/IN/PRACHAL">LinkedIn</a> | 
-                <a href="https://github.com/prachal-augustine">GitHub</a>
+            <div class="contact">
+                <span>📍 Haveli Darvaja, Mahoba, Uttar Pradesh 210427</span><br>
+                <span>📞 (+91)-6360703302 | (+91)-8299324771</span><br>
+                <a href="mailto:prachalaugustine@outlook.com">prachalaugustine@outlook.com</a> | 
+                <a href="https://WWW.LINKEDIN.COM/IN/PRACHAL" target="_blank">LinkedIn Profile</a>
             </div>
-            <p><strong>Data Engineer (5+ Years Experience)</strong> specializing in designing scalable data pipelines and ETL using Python, PySpark, and AWS.</p>
         </header>
 
-        <h2>Professional Certifications</h2>
-        <div>
-            <span class="cert-badge">🏆 Databricks Certified Associate Developer - Apache Spark 3.0 </span>
-            <span class="cert-badge">🏆 Databricks Certified Data Engineer Associate [cite: 6]</span>
+        <div class="section-title">Objective</div>
+        <p>Data Engineer with 5 years of experience in designing scalable data pipelines and ETL, proficient in Python, PySpark, SQL, AWS(S3), Databricks, and Kafka. </p>
+
+        <div class="section-title">Certifications</div>
+        <ul class="cert-list">
+            <li class="cert-item">✔ Databricks Certified Associate Developer for Apache Spark 3.0 </li>
+            <li class="cert-item">✔ Databricks Certified Data Engineer Associate [cite: 6]</li>
+        </ul>
+
+        <div class="section-title">Technologies & Skills</div>
+        <div class="skills-container">
+            <span class="skill-tag">Python</span> <span class="skill-tag">PySpark</span> <span class="skill-tag">Apache Spark</span> 
+            <span class="skill-tag">SQL</span> <span class="skill-tag">Kafka</span> <span class="skill-tag">AWS (S3)</span> 
+            <span class="skill-tag">HDFS</span> <span class="skill-tag">Unix</span> <span class="skill-tag">Iceberg</span> 
+            <span class="skill-tag">Databricks</span> <span class="skill-tag">Oracle Database</span> <span class="skill-tag">Snowflake</span>
+            <span class="skill-tag">Informatica Powercenter</span> <span class="skill-tag">GIT</span> 
         </div>
 
-        <h2>Technical Stack</h2>
-        <div class="skill-grid">
-            <div class="skill-category">
-                <strong>Languages & Processing</strong>
-                Python, PySpark, Apache Spark, SQL, Unix.
-            </div>
-            <div class="skill-category">
-                <strong>Data Platforms</strong>
-                Databricks, Snowflake, Kafka, AWS (S3), HDFS, Iceberg.
-            </div>
-            <div class="skill-category">
-                <strong>Tools & Databases</strong>
-                Git, Airflow (Orchestration), Oracle DB, Informatica Powercenter.
-            </div>
-        </div>
+        <div class="section-title">Professional Experience</div>
 
-        <h2>Work Experience</h2>
-        
         <div class="job">
-            <div class="job-header">
-                <span class="job-title">Consultant @ KPMG</span>
-                <span>Dec 2021 – Present </span>
+            <div class="job-meta">
+                <span class="job-title">Consultant | KPMG</span>
+                <span>Dec 2021 - Present</span>
             </div>
-            <p><em>Project: US Deposits, Goldman Sachs</em></p>
+            <strong>Project: US Deposits, Goldman Sachs</strong> 
             <ul>
-                <li>Implemented scalable pipelines using <code>PySpark</code> and <code>AWS(S3)</code> to streamline ingestion workflows.</li>
-                <li>Migrated legacy <code>Informatica</code> on-prem flows to cloud-native architecture, boosting performance and scalability.</li>
-                <li>Managed high-volume data sources including <code>Kafka</code>, <code>Parquet</code>, and <code>Iceberg</code>.</li>
+                <li>Designed and implemented scalable data pipelines using PySpark and Python, integrating AWS(S3) with in-house orchestration platforms. </li>
+                <li>Developed data ingestion frameworks populating S3 and Snowflake Data Warehouse (ODS) for financial reporting and KPI tracking. </li>
+                <li>Managed diverse data formats including Kafka, CSV, Parquet, and Iceberg while handling sensitive PII data. </li>
+                <li>Led migration of legacy Informatica on-prem data flows to cloud-native PySpark architecture on AWS. </li>
             </ul>
         </div>
 
         <div class="job">
-            <div class="job-header">
-                <span class="job-title">Associate Consultant @ Capgemini</span>
-                <span>Jun 2019 – Dec 2021 </span>
+            <div class="job-meta">
+                <span class="job-title">Associate Consultant | Capgemini</span>
+                <span>Jun 2019 - Dec 2021</span>
             </div>
+            <strong>Project: Product Profitability, Vertiv</strong> 
             <ul>
-                <li>Built end-to-end ETL pipelines in <code>Hadoop</code> extracting data from Oracle ERP, SAP, and Fusion.</li>
-                <li>Reduced manual file-loading efforts by <strong>40%</strong> through automated Python scripting.</li>
-                <li>Engineered Python scripts to extract data from Rest APIs (Google Ads, LinkedIn) for marketing analytics.</li>
+                <li>Built end-to-end ETL pipelines in DataZap and Hadoop for Oracle ERP, SAP, and Oracle BI sources. </li>
+                <li>Reduced manual file load efforts by 40% through custom Python automation scripts. </li>
+                <li>Designed complex ETL queries to analyze regional revenue and customer data. </li>
+            </ul>
+            <strong>Project: Marketing Dashboard, Vertiv</strong> 
+            <ul>
+                <li>Extracted data from Rest APIs (Google Ads, LinkedIn, Qualtrics, Bananatag) using Python for marketing analysis. </li>
+                <li>Developed shell scripts for HDFS-based ETL loads into Data Lake. </li>
+            </ul>
+            <strong>Project: Analytics, Grant Thornton</strong> 
+            <ul>
+                <li>Designed ETL mappings and workflows in Informatica Powercenter and handled change requests within SLA. </li>
+            </ul>
+            <strong>Project: EDWM, Telia</strong> 
+            <ul>
+                <li>Designed SQL queries and objects in SQL Server for Data Warehousing and resolved technical incidents. </li>
             </ul>
         </div>
 
-        <h2>Education</h2>
-        <p><strong>B.E. in Information Technology</strong><br>
-        Technocrats Institute of Technology, May 2019 (CGPA: 8.45).</p>
+        <div class="section-title">Education</div>
+        <ul>
+            <li><strong>B.E. in IT</strong> - Technocrats Institute of Technology, May 2019 (CGPA: 8.45) </li>
+            <li><strong>12th Grade</strong> - St. Joseph English Medium School (71.2%) </li>
+            <li><strong>10th Grade</strong> - St. Joseph English Medium School (81.7%) </li>
+        </ul>
     </div>
 </body>
 </html>
