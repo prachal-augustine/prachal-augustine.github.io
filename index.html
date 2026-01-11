@@ -3,104 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prachal Augustine | Data Engineer</title>
+    <title>Prachal Augustine | Data Engineer Portfolio</title>
     <style>
-        :root { --primary: #0056b3; --secondary: #6c757d; --bg: #f4f7f9; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 950px; margin: auto; padding: 20px; background-color: var(--bg); }
-        .container { background: white; padding: 50px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.1); }
-        header { text-align: center; border-bottom: 2px solid var(--primary); padding-bottom: 20px; margin-bottom: 30px; }
-        h1 { margin: 0; color: #222; font-size: 2.5em; text-transform: uppercase; }
-        .contact { margin: 10px 0; color: #555; }
-        .contact a { color: var(--primary); text-decoration: none; margin: 0 10px; }
-        .section-title { background: #e9ecef; padding: 8px 15px; border-left: 5px solid var(--primary); font-weight: bold; text-transform: uppercase; margin-top: 30px; }
-        .job { margin-bottom: 25px; }
-        .job-title { font-weight: bold; color: var(--primary); font-size: 1.1em; }
-        .job-meta { display: flex; justify-content: space-between; font-style: italic; color: #666; margin-bottom: 8px; }
-        .cert-list { list-style: none; padding: 0; }
-        .cert-item { background: #d4edda; color: #155724; padding: 8px; margin-bottom: 5px; border-radius: 4px; border-left: 4px solid #28a745; }
-        .skills-container { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px; }
-        .skill-tag { background: #eee; padding: 5px 12px; border-radius: 15px; font-size: 0.9em; border: 1px solid #ccc; }
-        ul { padding-left: 20px; }
-        li { margin-bottom: 5px; }
+        :root { --primary: #003366; --accent: #007bff; --text: #333; --bg: #f8f9fa; }
+        body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.6; color: var(--text); background-color: var(--bg); margin: 0; padding: 0; }
+        .container { max-width: 900px; margin: 40px auto; background: #fff; padding: 50px; box-shadow: 0 0 20px rgba(0,0,0,0.1); border-radius: 4px; }
+        header { text-align: center; border-bottom: 3px solid var(--primary); padding-bottom: 20px; }
+        h1 { margin: 0; font-size: 2.5em; color: var(--primary); letter-spacing: 1px; }
+        .contact-details { margin-top: 15px; font-size: 0.95em; color: #555; }
+        .section-header { background: #f0f4f8; padding: 10px 15px; border-left: 6px solid var(--primary); font-weight: bold; text-transform: uppercase; margin: 35px 0 15px 0; font-size: 1.1em; }
+        .job-header { display: flex; justify-content: space-between; font-weight: bold; color: var(--primary); margin-top: 20px; }
+        .project-title { font-weight: bold; color: #444; margin-top: 12px; display: block; border-bottom: 1px solid #eee; }
+        .cert-badge { display: block; background: #e7f3ff; border: 1px solid #b3d7ff; padding: 10px; border-radius: 4px; margin-bottom: 10px; color: #004085; font-weight: 500; }
+        .skills-group { margin-bottom: 15px; }
+        .skills-group b { color: var(--primary); }
+        ul { margin-top: 8px; }
+        li { margin-bottom: 6px; }
+        @media (max-width: 600px) { .container { padding: 20px; margin: 10px; } .job-header { flex-direction: column; } }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
             <h1>PRACHAL AUGUSTINE</h1>
-            <div class="contact">
-                <span>📍 Haveli Darvaja, Mahoba, Uttar Pradesh 210427</span><br>
-                <span>📞 (+91)-6360703302 | (+91)-8299324771</span><br>
+            <div class="contact-details">
+                Haveli Darvaja, Mahoba, Uttar Pradesh 210427<br>
+                (+91)-6360703302 | (+91)-8299324771<br>
                 <a href="mailto:prachalaugustine@outlook.com">prachalaugustine@outlook.com</a> | 
-                <a href="https://WWW.LINKEDIN.COM/IN/PRACHAL" target="_blank">LinkedIn Profile</a>
+                <a href="https://WWW.LINKEDIN.COM/IN/PRACHAL" target="_blank">LinkedIn</a>
             </div>
         </header>
 
-        <div class="section-title">Objective</div>
-        <p>Data Engineer with 5 years of experience in designing scalable data pipelines and ETL, proficient in Python, PySpark, SQL, AWS(S3), Databricks, and Kafka. </p>
+        <div class="section-header">Objective</div>
+        <p>Data Engineer with 5 years of experience in designing scalable data pipelines and ETL, proficient in Python, PySpark, SQL, AWS(S3), Databricks, and Kafka. Seeking to leverage my expertise in data processing, ingestion, and transformation to contribute to a dynamic organization's growth while advancing my professional development.</p>
 
-        <div class="section-title">Certifications</div>
-        <ul class="cert-list">
-            <li class="cert-item">✔ Databricks Certified Associate Developer for Apache Spark 3.0 </li>
-            <li class="cert-item">✔ Databricks Certified Data Engineer Associate [cite: 6]</li>
+        <div class="section-header">Technologies and Skills</div>
+        <div class="skills-group"><b>Core Skills:</b> Data Engineering, ETL (Extract, Transform, Load), Data Pipelines, Data Warehousing, Data Ingestion, Data Transformation, Data Processing, Big Data, Data Orchestration, Cloud.</div>
+        <div class="skills-group"><b>Tools & Tech:</b> Python, Pyspark, Apache Spark, SQL, Kafka, AWS(S3), HDFS, Unix, Iceberg, Databricks, Oracle Database, GIT, Informatica Powercenter.</div>
+
+        <div class="section-header">Certificates</div>
+        <div class="cert-badge">🏆 Databricks Certified Associate Developer for Apache Spark 3.0</div>
+        <div class="cert-badge">🏆 Databricks Certified Data Engineer Associate</div>
+
+        <div class="section-header">Work Experience</div>
+
+        <div class="job-header">
+            <span>Consultant | KPMG</span>
+            <span>Dec 2021 - Present</span>
+        </div>
+        <span class="project-title">Project: US Deposits, Goldman Sachs</span>
+        <ul>
+            <li>Proficiently designed and implemented scalable data pipelines using PySpark and Python, efficiently integrating AWS(S3) Bucket with an in-house data orchestration platform to streamline data ingestion and processing workflows.</li>
+            <li>Developed and managed a robust data ingestion framework for transforming and populating data into S3 bucket & Snowflake data warehouse, operational data store (ODS), which was pivotal for generating comprehensive financial reports and tracking KPIs.</li>
+            <li>Worked with diverse data sources such as Kafka, CSV, Parquet, Iceberg, and Oracle Database while demonstrating proficiency in managing sensitive PII (Personally Identifiable Information) data.</li>
+            <li>Led the migration of legacy Informatica on-prem data flows to a cloud-native architecture by reimplementing transformations in PySpark and Python, enabling improved scalability and performance.</li>
         </ul>
 
-        <div class="section-title">Technologies & Skills</div>
-        <div class="skills-container">
-            <span class="skill-tag">Python</span> <span class="skill-tag">PySpark</span> <span class="skill-tag">Apache Spark</span> 
-            <span class="skill-tag">SQL</span> <span class="skill-tag">Kafka</span> <span class="skill-tag">AWS (S3)</span> 
-            <span class="skill-tag">HDFS</span> <span class="skill-tag">Unix</span> <span class="skill-tag">Iceberg</span> 
-            <span class="skill-tag">Databricks</span> <span class="skill-tag">Oracle Database</span> <span class="skill-tag">Snowflake</span>
-            <span class="skill-tag">Informatica Powercenter</span> <span class="skill-tag">GIT</span> 
+        <div class="job-header">
+            <span>Associate Consultant | Capgemini</span>
+            <span>Jun 2019 - Dec 2021</span>
         </div>
-
-        <div class="section-title">Professional Experience</div>
-
-        <div class="job">
-            <div class="job-meta">
-                <span class="job-title">Consultant | KPMG</span>
-                <span>Dec 2021 - Present</span>
-            </div>
-            <strong>Project: US Deposits, Goldman Sachs</strong> 
-            <ul>
-                <li>Designed and implemented scalable data pipelines using PySpark and Python, integrating AWS(S3) with in-house orchestration platforms. </li>
-                <li>Developed data ingestion frameworks populating S3 and Snowflake Data Warehouse (ODS) for financial reporting and KPI tracking. </li>
-                <li>Managed diverse data formats including Kafka, CSV, Parquet, and Iceberg while handling sensitive PII data. </li>
-                <li>Led migration of legacy Informatica on-prem data flows to cloud-native PySpark architecture on AWS. </li>
-            </ul>
-        </div>
-
-        <div class="job">
-            <div class="job-meta">
-                <span class="job-title">Associate Consultant | Capgemini</span>
-                <span>Jun 2019 - Dec 2021</span>
-            </div>
-            <strong>Project: Product Profitability, Vertiv</strong> 
-            <ul>
-                <li>Built end-to-end ETL pipelines in DataZap and Hadoop for Oracle ERP, SAP, and Oracle BI sources. </li>
-                <li>Reduced manual file load efforts by 40% through custom Python automation scripts. </li>
-                <li>Designed complex ETL queries to analyze regional revenue and customer data. </li>
-            </ul>
-            <strong>Project: Marketing Dashboard, Vertiv</strong> 
-            <ul>
-                <li>Extracted data from Rest APIs (Google Ads, LinkedIn, Qualtrics, Bananatag) using Python for marketing analysis. </li>
-                <li>Developed shell scripts for HDFS-based ETL loads into Data Lake. </li>
-            </ul>
-            <strong>Project: Analytics, Grant Thornton</strong> 
-            <ul>
-                <li>Designed ETL mappings and workflows in Informatica Powercenter and handled change requests within SLA. </li>
-            </ul>
-            <strong>Project: EDWM, Telia</strong> 
-            <ul>
-                <li>Designed SQL queries and objects in SQL Server for Data Warehousing and resolved technical incidents. </li>
-            </ul>
-        </div>
-
-        <div class="section-title">Education</div>
+        <span class="project-title">Project: Product Profitability, Vertiv</span>
         <ul>
-            <li><strong>B.E. in IT</strong> - Technocrats Institute of Technology, May 2019 (CGPA: 8.45) </li>
-            <li><strong>12th Grade</strong> - St. Joseph English Medium School (71.2%) </li>
-            <li><strong>10th Grade</strong> - St. Joseph English Medium School (81.7%) </li>
+            <li>Built an end-to-end ETL pipeline in DataZap (ETL Tool), Hadoop to extract data from various sources like Oracle ERP, SAP, Oracle BI, and Oracle Fusion to ingest data in Data Lake.</li>
+            <li>Designed complex ETL queries and objects to obtain revenue and customer-related information across regions and products to aid business decisions.</li>
+            <li>Developed Python scripts for file manipulation to reduce the manual efforts of file loads by 40%.</li>
+            <li>Responsible for all project migration activities and deployed ETL objects to production.</li>
+            <li>Worked along with Business Analysts to define business logic and provided the technical solution for the same.</li>
+        </ul>
+
+        <span class="project-title">Project: Marketing Dashboard, Vertiv</span>
+        <ul>
+            <li>Designed efficient python codes to extract data from Rest APIs like Google Ads, LinkedIn, Qualtrics and Bananatag which helped Business users to analyze marketing and advertisement performance.</li>
+            <li>Directly communicated with the client to gather and understand business requirements and delivered quality solutions accordingly.</li>
+            <li>Designed shell scripts to facilitate ETL load into Data Lake by using HDFS.</li>
+        </ul>
+
+        <span class="project-title">Project: Analytics, Grant Thornton</span>
+        <ul>
+            <li>Designed ETL mappings and workflows in Informatica Powercenter.</li>
+            <li>Actively worked on change requests and resolved the incidents within the SLA.</li>
+            <li>Designed technical documentation for developed ETL pipelines.</li>
+        </ul>
+
+        <span class="project-title">Project: EDWM, Telia</span>
+        <ul>
+            <li>Designed SQL queries and objects in SQL Server for Data Warehousing activities.</li>
+            <li>Investigated incidents and technical issues addressed by clients and resolved them within the SLA.</li>
+            <li>Assisted the development team by analyzing and providing them the information on existing KPIs data flow to accelerate the development activity.</li>
+        </ul>
+
+        <div class="section-header">Education</div>
+        <ul>
+            <li><b>B.E. in IT</b> - Technocrats Institute of Technology, May 2019 (CGPA: 8.45)</li>
+            <li><b>12th Grade</b> - St. Joseph English Medium School (Percentage: 71.2%)</li>
+            <li><b>10th Grade</b> - St. Joseph English Medium School (Percentage: 81.7%)</li>
         </ul>
     </div>
 </body>
